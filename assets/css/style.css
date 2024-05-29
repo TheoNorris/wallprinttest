@@ -1,0 +1,68 @@
+.navbar {
+  padding: 1rem 1rem;
+}
+
+#navbarNav {
+  width: fit-content;
+  justify-content: end;
+}
+.logo-img {
+  width: 20%;
+}
+
+.navbar-p {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.gallery-holder {
+  padding: 0 2rem;
+  position: relative;
+  height: 70vh;
+}
+
+.opacity-cover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.126);
+}
+
+.slide-2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  top: -35%;
+  left: 0;
+}
+
+.slide-2 .carousel-inner div {
+  text-align: center;
+}
+
+.slide-2 .carousel-inner div img {
+  width: 80vw !important;
+  margin: 0 auto;
+}
+
+.hero-text {
+  position: absolute;
+  width: 40%;
+  height: 50%;
+  z-index: 3;
+  background-color: rgb(255, 255, 255);
+  top: 30%;
+  left: 5%;
+  padding-left: 2%;
+}
+
+.hero-text h2 {
+  margin-top: 20%;
+  font-size: 2.2rem;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+}
