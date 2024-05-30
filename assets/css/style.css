@@ -1,5 +1,6 @@
 .navbar {
   padding: 1rem 1rem;
+  z-index: 4;
 }
 
 #navbarNav {
@@ -26,14 +27,15 @@
   width: 100%;
   height: 100%;
   z-index: 1;
-  background-color: rgba(255, 255, 255, 0.126);
+  background: url("../images/wall.png");
+  opacity: 0.6;
 }
 
 .slide-2 {
   position: absolute;
   width: 100%;
   height: 100%;
-  z-index: 2;
+  z-index: 3;
   top: -35%;
   left: 0;
 }
@@ -43,15 +45,23 @@
 }
 
 .slide-2 .carousel-inner div img {
-  width: 80vw !important;
+  width: 100% !important;
   margin: 0 auto;
+}
+
+.wall-div {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  opacity: 0.8;
 }
 
 .hero-text {
   position: absolute;
   width: 40%;
   height: 50%;
-  z-index: 3;
+  z-index: 5;
   background-color: rgb(255, 255, 255);
   top: 30%;
   left: 5%;
